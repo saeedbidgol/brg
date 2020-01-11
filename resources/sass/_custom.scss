@@ -1,0 +1,99 @@
+body{
+    font-family: IRANSans;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+}
+.row{
+    margin:0;
+}
+ul{
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: unset;
+    &:hover{
+        text-decoration: none;
+        color: unset;
+    }
+}
+p{
+    margin: 0;
+}
+.sidebar{
+    overflow: hidden;
+    color: #fff;
+    padding: 15px;
+    min-height: 100vh;
+    background-image: linear-gradient(330deg, #2247ff 0%, #3c8aff 34%, #649bff 100%);
+    border-radius:50px 0 0 50px;
+    .user-info{
+        height: 170px;
+        .user-image{
+            width: 90px;
+            height: 90px;
+            background-color: #fff;
+            box-shadow: 0 0 10px #004fdf;
+            background-size: 100%;
+            background-position: center center;
+            background-repeat: no-repeat;
+            border-radius: 50%;
+            margin: auto;
+            background-image: url("/images/background/profile/admin.jpg");
+    
+        }
+        .user-welcome-text{
+            text-align: center;
+            margin: 10px 0 0 0;
+            span{
+                font-weight: 500;
+            }
+            p{
+                margin: 5px;
+            }
+        }
+    }
+    .menu{
+        list-style: none;
+        li{
+            border-radius: 0 25px 25px 0;
+            position: relative;
+            width: calc(100% + 15px);
+            height: 50px;
+            a{
+                width: 100%;
+                padding: 15px 20px 15px 0;
+                height: 100%;
+                display: block;
+            }
+        }
+        .active{
+            background-color: #fff;
+            color:#2247ff;
+            &:before,&:after{
+                content: "";
+                position: absolute;
+                background-color: transparent;
+                width: 38px;
+                left: 0;
+                height: 38px;
+                border-radius: 50%;
+            }
+            &:before{
+                box-shadow: -19px 19px #fff;
+                top: -38px;
+            }
+            &:after{
+                box-shadow: -19px -19px #fff;
+                bottom: -38px;
+            }
+        }
+    }
+    .function{
+        background-color: rgba(255, 255, 255, 0.205);
+    }
+} 
