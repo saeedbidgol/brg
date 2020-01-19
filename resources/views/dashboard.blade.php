@@ -48,7 +48,9 @@
             </div>
         </div>
         <div class="col-lg-10">
-
+            <div class="main-view">
+                
+            </div>
         </div>
     </div>
 </body>
