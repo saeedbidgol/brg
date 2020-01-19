@@ -11364,6 +11364,7 @@ body {
   box-sizing: border-box;
   height: 100vh;
   width: 100vw;
+  background-color: #fff7de;
 }
 
 .row {
@@ -11402,10 +11403,10 @@ p {
 }
 
 .sidebar .user-info .user-image {
-  width: 90px;
-  height: 90px;
-  background-color: #fff;
-  box-shadow: 0 0 10px #004fdf;
+  width: 80px;
+  height: 80px;
+  background-color: #fff7de;
+  box-shadow: 0 0 10px 1px #004fdf;
   background-size: 100%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -11431,22 +11432,51 @@ p {
   list-style: none;
 }
 
-.sidebar .menu li {
+.sidebar .menu .item {
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
   border-radius: 0 25px 25px 0;
   position: relative;
   width: calc(100% + 15px);
   height: 50px;
 }
 
-.sidebar .menu li a {
+.sidebar .menu .item a {
   width: 100%;
-  padding: 15px 20px 15px 0;
+  padding: 15px 80px 15px 0;
   height: 100%;
   display: block;
 }
 
+.sidebar .menu .item a .list-icon {
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  top: 5px;
+  right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.sidebar .menu .item a #dashboard {
+  background-image: url("/images/background/svg/dashboard_icon.svg");
+}
+
+.sidebar .menu .item a #new-person {
+  background-image: url("/images/background/svg/record_icon.svg");
+}
+
+.sidebar .menu .item a #list-person {
+  background-image: url("/images/background/svg/list_icon.svg");
+}
+
+.sidebar .menu .item:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
 .sidebar .menu .active {
-  background-color: #fff;
+  background-color: #fff7de;
   color: #2247ff;
 }
 
@@ -11462,17 +11492,40 @@ p {
 }
 
 .sidebar .menu .active:before {
-  box-shadow: -19px 19px #fff;
+  box-shadow: -19px 19px #fff7de;
   top: -38px;
 }
 
 .sidebar .menu .active:after {
-  box-shadow: -19px -19px #fff;
+  box-shadow: -19px -19px #fff7de;
   bottom: -38px;
 }
 
+.sidebar .menu .active:hover {
+  color: #2247ff;
+}
+
 .sidebar .function {
-  background-color: rgba(255, 255, 255, 0.205);
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  bottom: 20px;
+  right: 20px;
+}
+
+.sidebar .function .log-out {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.sidebar .function #log-out {
+  background-image: url("/images/background/svg/stand-by.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 @font-face {

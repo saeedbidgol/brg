@@ -1,3 +1,4 @@
+$body-background:#fff7de;
 body{
     font-family: IRANSans;
     text-align: right;
@@ -6,6 +7,7 @@ body{
     box-sizing: border-box;
     height: 100vh;
     width: 100vw;
+    background-color: $body-background;
 }
 .row{
     margin:0;
@@ -34,17 +36,16 @@ p{
     .user-info{
         height: 170px;
         .user-image{
-            width: 90px;
-            height: 90px;
-            background-color: #fff;
-            box-shadow: 0 0 10px #004fdf;
+            width: 80px;
+            height: 80px;
+            background-color: $body-background;
+            box-shadow: 0 0 10px 1px #004fdf;
             background-size: 100%;
             background-position: center center;
             background-repeat: no-repeat;
             border-radius: 50%;
             margin: auto;
             background-image: url("/images/background/profile/admin.jpg");
-    
         }
         .user-welcome-text{
             text-align: center;
@@ -59,20 +60,37 @@ p{
     }
     .menu{
         list-style: none;
-        li{
+        .item{
+            transition: color 0.3s;
             border-radius: 0 25px 25px 0;
             position: relative;
             width: calc(100% + 15px);
             height: 50px;
             a{
                 width: 100%;
-                padding: 15px 20px 15px 0;
+                padding: 15px 80px 15px 0;
                 height: 100%;
                 display: block;
+                .list-icon{
+                    position: absolute;
+                    width: 50px;
+                    height: 40px;
+                    top: 5px;
+                    right: 10px;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: left center;
+                }
+                #dashboard{background-image: url("/images/background/svg/dashboard_icon.svg");}
+                #new-person{background-image: url("/images/background/svg/record_icon.svg");}
+                #list-person{background-image: url("/images/background/svg/list_icon.svg");}
+            }
+            &:hover{
+              color: rgba(255, 255, 255, 0.7);  
             }
         }
         .active{
-            background-color: #fff;
+            background-color: $body-background;
             color:#2247ff;
             &:before,&:after{
                 content: "";
@@ -84,16 +102,36 @@ p{
                 border-radius: 50%;
             }
             &:before{
-                box-shadow: -19px 19px #fff;
+                box-shadow: -19px 19px $body-background;
                 top: -38px;
             }
             &:after{
-                box-shadow: -19px -19px #fff;
+                box-shadow: -19px -19px $body-background;
                 bottom: -38px;
+            }
+            &:hover{
+                color: #2247ff;
             }
         }
     }
     .function{
-        background-color: rgba(255, 255, 255, 0.205);
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        bottom: 20px;
+        right: 20px;
+        .log-out{
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+        #log-out{
+            background-image: url("/images/background/svg/stand-by.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
     }
 }  

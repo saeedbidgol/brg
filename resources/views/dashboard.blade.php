@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <title>داشبورد</title>
 </head>
+
 <body>
     <div class="row">
         <div class="col-lg-2 sidebar">
@@ -18,13 +20,31 @@
                 </div>
             </div>
             <ul class="menu">
-                <li class="active">
-                    <a href="#">ثبت اطلاعات</a>
+                <li class="item active">
+                    <a href="#">
+                        <span class="list-icon" id="dashboard"></span>
+                        <span>داشبورد</span>
+                    </a>
                 </li>
-                <li><a href="#">لیست اشخاص</a></li>
+                <li class="item">
+                    <a href="#">
+                        <span class="list-icon" id="new-person"></span>
+                        <span>ثبت اطلاعات</span>
+                    </a>
+                </li>
+                <li class="item ">
+                    <a href="#">
+                        <span class="list-icon" id="list-person"></span>
+                        <span>لیست اشخاص</span>
+                    </a>
+                </li>
             </ul>
             <div class="function">
-
+                <div class="log-out">
+                    <a href="#">
+                        <span id="log-out"></span>
+                    </a>
+                </div>
             </div>
         </div>
         <div class="col-lg-10">
@@ -32,4 +52,5 @@
         </div>
     </div>
 </body>
-</html> 
+
+</html>
