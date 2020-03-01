@@ -11,10 +11,44 @@
 
 <body>
     <div class="container">
-    <div class="row">
-        <!--<div class="col-lg-2"></div>-->
+        <div class="scene">
+            <div class="triangle">
+                <div class="wall1"></div>
+                <div class="wall2"></div>
+                <div class="wall3"></div>
+            </div>
+        </div>
+        <!--<div class="page">
+            <div class="container2">
+                <div class="box-wrapper">
+                    <div class="box-faces">
+                        <div class="box-face box-face--is-front">
+                        </div>
+                        <div class="box-face box-face--is-left">
+                        </div>
+                        <div class="box-face box-face--is-right">
+                        </div>
 
-        <!--<div class="col-lg-2 sidebar">
+                    </div> end of .box -->
+                </div><!-- end of .box-wrapper -->
+            </div><!-- /.container -->
+        </div><!-- /.page -->
+        <!-- SDG -->
+
+
+
+
+
+        <!--
+        <div class="step">
+            <div class="step1"></div>
+            <div class="step2"></div>
+            <div class="step3"></div>
+        </div>-->
+        <div class="row">
+            <!--<div class="col-lg-2"></div>-->
+
+            <!--<div class="col-lg-2 sidebar">
             <div class="user-info">
                 <div class="user-image"></div>
                 <div class="user-welcome-text">
@@ -51,228 +85,9 @@
             </div>
         </div>-->
 
-        <div class="col-lg-12">
 
-            <div id="product-category" class="main-view row">
-                <div class="category-item col-lg-4 col-md-4 col-sm-12 triple col-12">
-                    <a href="https://bozorgmehrcarpet.com/product-subject/کلکسیون-آیسا-برجسته">
-                        <div class="item">
-                            <div class="btn-box">
-                                <div class="carpet-pic">
-                                    <img style="width:100%" src="/images/carpet2.png" alt="کلکسیون 1200 شانه برجسته آیسا فرش بزرگمهر">
-                                </div>
-                                <div class="text-on-btn">
-                                    <p class="collection-text">کلکسیون</p>
-                                    <h2 class="content-text">تابلو فرش</h2>
-                                    <p class="more-text">مشاهده <span></span></p>
-                                </div>
-                            </div>
-                            <div class="title">
-                                <h2>۱۲۰۰ شانه برجسته</h2>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div>
-                    <h1 style="width:24em; overflow:hidden">فرش بزرگمهر جهان زیر پای شماست</h1>
-                </div>
-                <!--
-                <div class="col-md-3">
-                    <div class="item">
-                        <div class="blog-post">
-                            <div class="ImageWrapper">
-                                <a href="https://bozorgmehrcarpet.com/product/فرش-700-شانه-کد-7871" class="">
-                                    <img class="img" src="https://bozorgmehrcarpet.com/thumb.php?img=uploads/product/فرش-ماشینی-بزرگمهر-کاشان-اصفهان-طرح-دستباف&zwnj;-آکرولیک-700-شانه-کرم-کد-7871.jpg&amp;size=medium" alt="محصولات فرش بزرگمهر">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="body">
-                            <a href="https://bozorgmehrcarpet.com/product/فرش-700-شانه-کد-7871">
-                                <h2>فرش 700 شانه کد 7871</h2>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="item">
-                        <div class="blog-post">
-                            <div class="ImageWrapper">
-                                <a href="https://bozorgmehrcarpet.com/product/فرش-700-شانه-کد-7871" class="">
-                                    <img class="img" src="https://bozorgmehrcarpet.com/thumb.php?img=uploads/product/فرش-ماشینی-بزرگمهر-کاشان-اصفهان-طرح-دستباف&zwnj;-آکرولیک-700-شانه-کرم-کد-7871.jpg&amp;size=medium" alt="محصولات فرش بزرگمهر">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="body">
-                            <a href="https://bozorgmehrcarpet.com/product/فرش-700-شانه-کد-7871">
-                                <h2>فرش 700 شانه کد 7871</h2>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="item">
-                        <div class="blog-post">
-                            <div class="ImageWrapper">
-                                <a href="https://bozorgmehrcarpet.com/product/فرش-700-شانه-کد-7871" class="">
-                                    <img class="img" src="https://bozorgmehrcarpet.com/thumb.php?img=uploads/product/فرش-ماشینی-بزرگمهر-کاشان-اصفهان-طرح-دستباف&zwnj;-آکرولیک-700-شانه-کرم-کد-7871.jpg&amp;size=medium" alt="محصولات فرش بزرگمهر">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="body">
-                            <a href="https://bozorgmehrcarpet.com/product/فرش-700-شانه-کد-7871">
-                                <h2>فرش 700 شانه کد 7871</h2>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="item">
-                        <div class="blog-post">
-                            <div class="ImageWrapper">
-                                <a href="https://bozorgmehrcarpet.com/product/فرش-700-شانه-کد-7871" class="">
-                                    <img class="img" src="https://bozorgmehrcarpet.com/thumb.php?img=uploads/product/فرش-ماشینی-بزرگمهر-کاشان-اصفهان-طرح-دستباف&zwnj;-آکرولیک-700-شانه-کرم-کد-7871.jpg&amp;size=medium" alt="محصولات فرش بزرگمهر">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="body">
-                            <a href="https://bozorgmehrcarpet.com/product/فرش-700-شانه-کد-7871">
-                                <h2>فرش 700 شانه کد 7871</h2>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="item">
-                        <div class="blog-post">
-                            <div class="ImageWrapper">
-                                <a href="https://bozorgmehrcarpet.com/product/فرش-700-شانه-کد-7871" class="">
-                                    <img class="img" src="https://bozorgmehrcarpet.com/thumb.php?img=uploads/product/فرش-ماشینی-بزرگمهر-کاشان-اصفهان-طرح-دستباف&zwnj;-آکرولیک-700-شانه-کرم-کد-7871.jpg&amp;size=medium" alt="محصولات فرش بزرگمهر">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="body">
-                            <a href="https://bozorgmehrcarpet.com/product/فرش-700-شانه-کد-7871">
-                                <h2>فرش 700 شانه کد 7871</h2>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="item">
-                        <div class="blog-post">
-                            <div class="ImageWrapper">
-                                <a href="https://bozorgmehrcarpet.com/product/فرش-700-شانه-کد-7871" class="">
-                                    <img class="img" src="https://bozorgmehrcarpet.com/thumb.php?img=uploads/product/فرش-ماشینی-بزرگمهر-کاشان-اصفهان-طرح-دستباف&zwnj;-آکرولیک-700-شانه-کرم-کد-7871.jpg&amp;size=medium" alt="محصولات فرش بزرگمهر">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="body">
-                            <a href="https://bozorgmehrcarpet.com/product/فرش-700-شانه-کد-7871">
-                                <h2>فرش 700 شانه کد 7871</h2>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="item">
-                        <div class="blog-post">
-                            <div class="ImageWrapper">
-                                <a href="https://bozorgmehrcarpet.com/product/فرش-700-شانه-کد-7871" class="">
-                                    <img class="img" src="https://bozorgmehrcarpet.com/thumb.php?img=uploads/product/فرش-ماشینی-بزرگمهر-کاشان-اصفهان-طرح-دستباف&zwnj;-آکرولیک-700-شانه-کرم-کد-7871.jpg&amp;size=medium" alt="محصولات فرش بزرگمهر">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="body">
-                            <a href="https://bozorgmehrcarpet.com/product/فرش-700-شانه-کد-7871">
-                                <h2>فرش 700 شانه کد 7871</h2>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="item">
-                        <div class="blog-post">
-                            <div class="ImageWrapper">
-                                <a href="https://bozorgmehrcarpet.com/product/فرش-700-شانه-کد-7871" class="">
-                                    <img class="img" src="https://bozorgmehrcarpet.com/thumb.php?img=uploads/product/فرش-ماشینی-بزرگمهر-کاشان-اصفهان-طرح-دستباف&zwnj;-آکرولیک-700-شانه-کرم-کد-7871.jpg&amp;size=medium" alt="محصولات فرش بزرگمهر">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="body">
-                            <a href="https://bozorgmehrcarpet.com/product/فرش-700-شانه-کد-7871">
-                                <h2>فرش 700 شانه کد 7871</h2>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="item">
-                        <div class="blog-post">
-                            <div class="ImageWrapper">
-                                <a href="https://bozorgmehrcarpet.com/product/فرش-700-شانه-کد-7871" class="">
-                                    <img class="img" src="https://bozorgmehrcarpet.com/thumb.php?img=uploads/product/فرش-ماشینی-بزرگمهر-کاشان-اصفهان-طرح-دستباف&zwnj;-آکرولیک-700-شانه-کرم-کد-7871.jpg&amp;size=medium" alt="محصولات فرش بزرگمهر">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="body">
-                            <a href="https://bozorgmehrcarpet.com/product/فرش-700-شانه-کد-7871">
-                                <h2>فرش 700 شانه کد 7871</h2>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="item">
-                        <div class="blog-post">
-                            <div class="ImageWrapper">
-                                <a href="https://bozorgmehrcarpet.com/product/فرش-700-شانه-کد-7871" class="">
-                                    <img class="img" src="https://bozorgmehrcarpet.com/thumb.php?img=uploads/product/فرش-ماشینی-بزرگمهر-کاشان-اصفهان-طرح-دستباف&zwnj;-آکرولیک-700-شانه-کرم-کد-7871.jpg&amp;size=medium" alt="محصولات فرش بزرگمهر">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="body">
-                            <a href="https://bozorgmehrcarpet.com/product/فرش-700-شانه-کد-7871">
-                                <h2>فرش 700 شانه کد 7871</h2>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="item">
-                        <div class="blog-post">
-                            <div class="ImageWrapper">
-                                <a href="https://bozorgmehrcarpet.com/product/فرش-700-شانه-کد-7871" class="">
-                                    <img class="img" src="https://bozorgmehrcarpet.com/thumb.php?img=uploads/product/فرش-ماشینی-بزرگمهر-کاشان-اصفهان-طرح-دستباف&zwnj;-آکرولیک-700-شانه-کرم-کد-7871.jpg&amp;size=medium" alt="محصولات فرش بزرگمهر">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="body">
-                            <a href="https://bozorgmehrcarpet.com/product/فرش-700-شانه-کد-7871">
-                                <h2>فرش 700 شانه کد 7871</h2>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="item">
-                        <div class="blog-post">
-                            <div class="ImageWrapper">
-                                <a href="https://bozorgmehrcarpet.com/product/فرش-700-شانه-کد-7871" class="">
-                                    <img class="img" src="https://bozorgmehrcarpet.com/thumb.php?img=uploads/product/فرش-ماشینی-بزرگمهر-کاشان-اصفهان-طرح-دستباف&zwnj;-آکرولیک-700-شانه-کرم-کد-7871.jpg&amp;size=medium" alt="محصولات فرش بزرگمهر">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="body">
-                            <a href="https://bozorgmehrcarpet.com/product/فرش-700-شانه-کد-7871">
-                                <h2>فرش 700 شانه کد 7871</h2>
-                            </a>
-                        </div>
-                    </div>
-                </div>
--->
-            </div>
+
         </div>
-    </div>
     </div>
 </body>
 
