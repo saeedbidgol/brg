@@ -52,7 +52,7 @@
             <div class="user-info">
                 <div class="user-image"></div>
                 <div class="user-welcome-text">
-                    <p><span>سعید</span> عزیز</p>
+                    <p><span>سعید</span> سسسس</p>
                     <p>خوش آمدید!</p>
                 </div>
             </div>
